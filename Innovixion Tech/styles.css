@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    background-image: url('https://img.freepik.com/free-photo/top-view-wall-clock-still-life_23-2150417202.jpg?t=st=1716866248~exp=1716869848~hmac=c375538276ab115f1b0a72a776ca14c36cc14938c8a52c963ab23e5a257d54ad&w=826');
+    background-size: cover;
+    height: 100vh;
+
+    padding: 30px;
+    text-align: center;
+
+}
+
+.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Roboto";
+    color: #022ff7;
+
+}
+
+.input-container-header {
+    background-image: linear-gradient(#eebcf7, #ffffff, #05eef2);
+    width: 60vw;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.input-container {
+    background-image: radial-gradient(#f2b3e3, #fadcf2, #faf5f9);
+    width: 500px;
+    border-radius: 70px;
+    margin: 15;
+    padding: 20px;
+}
+
+.description {
+    text-align: center;
+    color: #571045;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.inputDate {
+    height: 60px;
+    width: 200px;
+    font-family: Caveat;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #ffffff;
+    padding: 10px;
+    background-image: radial-gradient(#17e2e6, #a7b7b8);
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border-width: 0px;
+    background-image: linear-gradient(#101e57, #c6a3d4);
+    margin: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.success {
+    font-size: 20px;
+    font-family: "Lobster";
+    font-weight: bold;
+    color: #f20509;
+    text-align: center;
+    padding: 30px;
+}
+
+#countdown {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+
+}
+
+#countdown div {
+    background: #444;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+    background-image: linear-gradient(#eebcf7, #ffffff, #05eef2);
+
+}
+
+#countdown span {
+    display: block;
+    font-size: 2rem;
+}
